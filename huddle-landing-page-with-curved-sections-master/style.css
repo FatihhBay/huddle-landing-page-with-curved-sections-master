@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
 
 
@@ -54,6 +55,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin:5rem 0;
 }
 
 .top .title h1{
@@ -104,6 +106,7 @@ body{
     flex-direction: column;
     align-items:center;
     justify-content: space-between;
+    margin:3rem 0;
 }
 
 .body-top .numbers{
@@ -111,7 +114,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding:0 3rem;
-    margin:3rem 0;
+    margin:5rem 0;
     width:100%;
 
 }
@@ -138,6 +141,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin:3rem 0;
 }
 
 .body-mid .text{
@@ -166,6 +170,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:2rem 0 ;
 }
 
 .body-mid .flowing{
@@ -173,12 +178,14 @@ body{
     justify-content: space-between;
     align-items: center;
     margin:5rem 0;
+    margin:2rem 0 ;
 }
 
 .body-mid .your{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:2rem 0 ;
 }
 
 .body-bottom{
@@ -186,6 +193,7 @@ body{
     flex-direction: column;
     margin-top:5rem;
     max-width: 50%;
+    margin:3rem 0;
 }
 
 .body-bottom p{
@@ -327,6 +335,15 @@ form button{
     color:white;
     margin-right:1rem;
     font-size: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.footer-bottom a{
+    transition: all 0.4s ease;
+}
+
+.footer-bottom a:hover{
+    opacity:0.6;
 }
 
 
@@ -500,10 +517,3 @@ form button{
 
 
 
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
